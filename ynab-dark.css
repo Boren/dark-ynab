@@ -1,44 +1,54 @@
-body,
-.ynab-grid-container {
-    background-color: #121212;
-}
+/* ==UserStyle==
+@name           YNAB Dark Theme
+@namespace      github.com/Boren/dark-ynab
+@homepageURL    https://github.com/Boren/dark-ynab
+@updateURL      https://raw.githubusercontent.com/Boren/dark-ynab/master/ynab-dark.css
+@version        1.0.0
+@author         Fredrik Bore
+==/UserStyle== */
+@-moz-document domain("app.youneedabudget.com") {
+    body,
+    .ynab-grid-container {
+        background-color: #121212;
+    }
 
-* {
-    --budget_balance_zero_background: #222222;
-    --default_background: #121212;
-    --default_text: #FFFFFF;
-    --default_text_dark: #1E1E1E;
-    --header_background: #222222;
-    --header_negative_text: #CF6679;
-    --inspector_background: #1E1E1E;
-    --primary_button_text: #FFFFFF;
-    --sidebar_background: #282828;
-    --status_negative: #CF6679;
-    --table_header_background_default: #1E1E1E;
-    --table_header_text_default: #FFFFFF;
-    --table_row_background_default: #121212;
-    --table_row_text_default: #FFFFFF;
-    --tbb_default_text: #000000;
-}
+    * {
+        --budget_balance_zero_background: #222222;
+        --default_background: #121212;
+        --default_text: #FFFFFF;
+        --default_text_dark: #1E1E1E;
+        --header_background: #222222;
+        --header_negative_text: #CF6679;
+        --inspector_background: #1E1E1E;
+        --primary_button_text: #FFFFFF;
+        --sidebar_background: #282828;
+        --status_negative: #CF6679;
+        --table_header_background_default: #1E1E1E;
+        --table_header_text_default: #FFFFFF;
+        --table_row_background_default: #121212;
+        --table_row_text_default: #FFFFFF;
+        --tbb_default_text: #000000;
+    }
 
-.sidebar-nav-menu-budget {
-    background-color: #303030;
-}
+    .sidebar-nav-menu-budget {
+        background-color: #303030;
+    }
 
-.category-name {
-    color: var(--default_text);
-}
+    .category-name {
+        color: var(--default_text);
+    }
 
-.ynab-grid .ynab-grid-body-row:nth-of-type(even):not(.is-scheduled):not(.is-checked):not(.is-editing):not(.ynab-grid-body-empty):not(.ynab-grid-actions) {
-    background-color: #121212;
-}
+    .ynab-grid .ynab-grid-body-row:nth-of-type(even):not(.is-scheduled):not(.is-checked):not(.is-editing):not(.ynab-grid-body-empty):not(.ynab-grid-actions) {
+        background-color: #121212;
+    }
 
-.ynab-grid .ynab-grid-body-row:nth-of-type(odd):not(.is-scheduled):not(.is-checked):not(.is-editing):not(.ynab-grid-body-empty):not(.ynab-grid-actions) {
-    background-color: #121212;
-}
+    .ynab-grid .ynab-grid-body-row:nth-of-type(odd):not(.is-scheduled):not(.is-checked):not(.is-editing):not(.ynab-grid-body-empty):not(.ynab-grid-actions) {
+        background-color: #121212;
+    }
 
-.toolkit-is-reconciled,
-.income-expense-number > span.user-data,
-span.user-entered-text {
-    color: #fff;
+    .toolkit-is-reconciled,
+    .income-expense-number > span.user-data,
+    span.user-entered-text {
+        color: #fff;
+    }
 }
