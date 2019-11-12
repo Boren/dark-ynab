@@ -20,7 +20,11 @@
         --header_background: #222222;
         --header_negative_text: #CF6679;
         --inspector_background: #1E1E1E;
+        --inspector_default_text: #FFFFFF;
+        --inspector_warning_background: #CF6679;
+        --loading-background: #121212;
         --primary_button_text: #FFFFFF;
+        --register_status_scheduled_background: #363636;
         --sidebar_background: #282828;
         --status_negative: #CF6679;
         --table_header_background_default: #1E1E1E;
