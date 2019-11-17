@@ -3,7 +3,7 @@
 @namespace      github.com/Boren/dark-ynab
 @homepageURL    https://github.com/Boren/dark-ynab
 @updateURL      https://raw.githubusercontent.com/Boren/dark-ynab/master/ynab-dark.user.css
-@version        1.0.0
+@version        1.1.0
 @author         Fredrik Bore
 ==/UserStyle== */
 @-moz-document domain("app.youneedabudget.com") {
@@ -33,6 +33,12 @@
         --table_row_text_default: #FFFFFF;
         --tbb_default_text: #000000;
     }
+    
+    .income-expense-row:hover,
+    .income-expense-row.income-expense-totals:hover .income-expense-column,
+    .income-expense-row:hover .income-expense-first-column {
+        background: #282828 !important;
+    }
 
     .sidebar-nav-menu-budget {
         background-color: #303030;
@@ -40,6 +46,23 @@
 
     .category-name {
         color: var(--default_text);
+    }
+    
+    .percent-sign, .percent, .percent-label, .chart, .highcharts-title {
+        fill: #FFF !important;
+    }
+    
+    .highcharts-text-outline {
+        stroke-width: 0px;
+    }
+    
+    text > tspan {
+        color: #fff;
+        fill: #fff;
+    }
+    
+    .highcharts-background {
+        fill: #121212;
     }
 
     .ynab-grid .ynab-grid-body-row:nth-of-type(even):not(.is-scheduled):not(.is-checked):not(.is-editing):not(.ynab-grid-body-empty):not(.ynab-grid-actions) {
@@ -54,5 +77,31 @@
     .income-expense-number > span.user-data,
     span.user-entered-text {
         color: #fff;
+    }
+    
+    .tk-totals-table__child-row,
+    .tk-totals-table__child-summary-row,
+    .tk-totals-table__title-row--collapsed{
+        background-color: #282828;
+    }
+    
+    .tk-totals-table__header-row--income,
+    .tk-totals-table__footer-row--income {
+        background-color: #00c853;
+    }
+    
+    .tk-totals-table__header-row--expense,
+    .tk-totals-table__footer-row--expense {
+        background-color: #CF6679;
+    }
+    
+    .tk-ive__net-income {
+        background-color: #121212;
+        border-top: 2px solid #FFF;
+        border-bottom: 2px solid #FFF;
+    }
+    
+    .tk-modal-content {
+        background-color: #282828;
     }
 }
