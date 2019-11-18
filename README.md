@@ -23,7 +23,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-You Need A Budget is lacking a dark mode. This stylesheet enables dark mode for both YNAB and [Toolkit for YNAB](https://github.com/toolkit-for-ynab/toolkit-for-ynab)
+You Need A Budget is lacking a dark mode. This stylesheet enables dark mode for both YNAB and [Toolkit for YNAB](https://github.com/toolkit-for-ynab/toolkit-for-ynab).
+The project aims to mix YNAB style with the [dark theme principles from Material Design](https://material.io/design/color/dark-theme.html).
 
 ### Installation
  
