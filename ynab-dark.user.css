@@ -33,6 +33,10 @@
         --table_row_text_default: #FFFFFF;
         --tbb_default_text: #000000;
     }
+        
+    .ynab-new-currency-input.is-editing {
+        background-color: #121212;
+    }
     
     .income-expense-row:hover,
     .income-expense-row.income-expense-totals:hover .income-expense-column,
