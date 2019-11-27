@@ -3,7 +3,7 @@
 @namespace      github.com/Boren/dark-ynab
 @homepageURL    https://github.com/Boren/dark-ynab
 @updateURL      https://raw.githubusercontent.com/Boren/dark-ynab/master/ynab-dark.user.css
-@version        1.1.0
+@version        1.2.0
 @author         Fredrik Bore
 ==/UserStyle== */
 @-moz-document domain("app.youneedabudget.com") {
@@ -16,13 +16,14 @@
         --budget_balance_zero_background: #222222;
         --default_background: #121212;
         --default_text: #FFFFFF;
-        --default_text_dark: #1E1E1E;
+        --default_text_dark: #FFFFFF;
         --header_background: #222222;
         --header_negative_text: #CF6679;
         --inspector_background: #1E1E1E;
         --inspector_default_text: #FFFFFF;
         --inspector_warning_background: #CF6679;
-        --loading-background: #121212;
+        --loading_background: #121212;
+        --login_background_default: #121212;
         --primary_button_text: #FFFFFF;
         --register_status_scheduled_background: #363636;
         --sidebar_background: #282828;
@@ -33,7 +34,11 @@
         --table_row_text_default: #FFFFFF;
         --tbb_default_text: #000000;
     }
-        
+    
+    .accounts-toolbar {
+        background-color: #1E1E1E;
+    }
+    
     .ynab-new-currency-input.is-editing {
         background-color: #121212;
     }
