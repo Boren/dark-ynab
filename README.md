@@ -1,4 +1,8 @@
 <p align="center">
+  <a href="https://github.com/boren/dark-ynab">
+    <img src="logo.png" alt="Logo" width="200" height="200">
+  </a>
+
   <h3 align="center">Dark YNAB</h3>
 
   <p align="center">
