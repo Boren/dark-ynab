@@ -3,7 +3,7 @@
 @namespace      github.com/Boren/dark-ynab
 @homepageURL    https://github.com/Boren/dark-ynab
 @updateURL      https://raw.githubusercontent.com/Boren/dark-ynab/master/ynab-dark.user.css
-@version        1.4.0
+@version        1.5.0
 @author         Fredrik Bore
 ==/UserStyle== */
 @-moz-document domain("app.youneedabudget.com") {
@@ -24,14 +24,21 @@
         --inspector_warning_background: #CF6679;
         --loading_background: #121212;
         --login_background_default: #121212;
+        --modal_background: #1E1E1E;
+        --modal_row_background_active: #282828;
+        --primary_action: #00beed;
         --primary_button_text: #FFFFFF;
         --register_status_scheduled_background: #363636;
+        --sidebar_account_negative_balance_background: #1E1E1E;
         --sidebar_background: #282828;
+        --sidebar_button_secondary_background: #265862;
         --status_negative: #CF6679;
         --table_header_background_default: #1E1E1E;
         --table_header_text_default: #FFFFFF;
         --table_row_background_default: #121212;
         --table_row_text_default: #FFFFFF;
+        --textinput_background: #282828;
+        --toolbar_background: #1E1E1E;
         --tbb_default_text: #000000;
     }
 
@@ -78,12 +85,21 @@
         fill: var(--default-text) !important;
     }
 
-
-
     text > tspan {
         color: var(--default_text);
         fill: var(--default_text);
     }
+    
+    .ynab-grid .ynab-grid-body-row:nth-of-type(even):not(.is-scheduled):not(.is-checked):not(.is-editing):not(.ynab-grid-body-empty):not(.ynab-grid-actions) {
+        background-color: var(--default_background);
+    }
+
+    .ynab-grid .ynab-grid-body-row:nth-of-type(odd):not(.is-scheduled):not(.is-checked):not(.is-editing):not(.ynab-grid-body-empty):not(.ynab-grid-actions) {
+        background-color: var(--default_background);
+    }
+
+    
+    /* YNAB Toolkit Specific */
 
     .highcharts-background {
         fill: var(--default_background);
@@ -101,14 +117,6 @@
 
     .highcharts-text-outline {
         display: none;
-    }
-
-    .ynab-grid .ynab-grid-body-row:nth-of-type(even):not(.is-scheduled):not(.is-checked):not(.is-editing):not(.ynab-grid-body-empty):not(.ynab-grid-actions) {
-        background-color: var(--default_background);
-    }
-
-    .ynab-grid .ynab-grid-body-row:nth-of-type(odd):not(.is-scheduled):not(.is-checked):not(.is-editing):not(.ynab-grid-body-empty):not(.ynab-grid-actions) {
-        background-color: var(--default_background);
     }
 
     .toolkit-is-reconciled,
