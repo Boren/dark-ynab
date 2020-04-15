@@ -15,6 +15,12 @@
   </p>
 </p>
 
+<img src="budget.jpg" alt="Screenshot of Budget Screen">
+<img src="account.jpg" alt="Screenshot of Account Screen">
+<img src="report-net-worth.jpg" alt="Screenshot of Net Worth Report">
+<img src="report-spending.jpg" alt="Screenshot of Spending Report">
+<img src="report-income-expense.jpg" alt="Screenshot of Income/Expense Report">
+
 ## Table of Contents
 
 * [About the Project](#about-the-project)
