@@ -3,7 +3,7 @@
 @namespace      github.com/Boren/dark-ynab
 @homepageURL    https://github.com/Boren/dark-ynab
 @updateURL      https://raw.githubusercontent.com/Boren/dark-ynab/master/ynab-dark.user.css
-@version        1.6.0
+@version        1.7.0
 @author         Fredrik Bore
 ==/UserStyle== */
 @-moz-document domain("app.youneedabudget.com") {
@@ -21,7 +21,9 @@
         --header_negative_text: #CF6679;
         --inspector_background: #1E1E1E;
         --inspector_default_text: #FFFFFF;
+        --inspector_goal_message_warning_text: #FFFFFF;
         --inspector_section_heading_background: #282828;
+        --inspector_alert_background: #CF6679;
         --inspector_warning_background: #CF6679;
         --loading_background: #121212;
         --login_background_default: #121212;
