@@ -3,7 +3,7 @@
 @namespace      github.com/Boren/dark-ynab
 @homepageURL    https://github.com/Boren/dark-ynab
 @updateURL      https://raw.githubusercontent.com/Boren/dark-ynab/master/ynab-dark.user.css
-@version        1.7.0
+@version        1.8.0
 @author         Fredrik Bore
 ==/UserStyle== */
 @-moz-document domain("app.youneedabudget.com") {
@@ -117,17 +117,23 @@
     }
 
     .highcharts-grid-line {
-
         opacity: 0.2;
     }
 
     .highcharts-point {
-
         stroke: var(--sidebar_background);
     }
 
     .highcharts-text-outline {
         display: none;
+    }
+    
+    .highcharts-tooltip > span {
+        color: var(--default-text) !important;
+    }
+    
+    .highcharts-tooltip-box {
+        fill: rgba(18, 18, 18, 0.85);
     }
 
     .toolkit-is-reconciled,
