@@ -13,6 +13,8 @@
     }
 
     * {
+        --accountwidget_account_list_item_background: #121212;
+        --accountwidget_background: #1E1E1E;
         --budget_balance_zero_background: #222222;
         --default_background: #121212;
         --default_text: #FFFFFF;
